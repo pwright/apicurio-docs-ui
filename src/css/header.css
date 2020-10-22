@@ -3,7 +3,7 @@ html.is-clipped--navbar {
 }
 
 body {
-  padding-top: var(--navbar-height);
+  padding-top: 0;
 }
 
 #rhbar {
@@ -14,15 +14,21 @@ body {
   z-index: 4;
 }
 
+.skupper {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
 .masthead-header {
   position: fixed;
-  top: 40px;
+  top: 4px;
   right: 0;
   left: 0;
   z-index: 4;
-  height: 96px;
-  line-height: 96px;
-  background-color: #22252c;
+  height: 20px;
+  line-height: 20px;
+  background-color: white;
   border-bottom: 1px solid #afb1b2;
   color: #dcd7d7;
   border-top: 1px solid #afb1b2;
@@ -38,18 +44,19 @@ body {
 }
 
 .masthead-header .masthead-brand {
-  height: 94px;
-  line-height: 94px;
+  height: 20px;
+  line-height: 20px;
   float: left;
-  background-image: url(https://www.apicur.io/images/full-logo-banner.png);
+  background-image: url(https://skupper.io/images/skupper-logo.svg);
   background-repeat: no-repeat;
   margin-left: 40px;
 }
 
 .masthead-header .masthead-brand a {
   font-family: sans-serif;
-  color: transparent;
-  font-size: 56px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .masthead-header .masthead-brand a:hover {
@@ -58,7 +65,7 @@ body {
 
 .masthead-header .masthead-menu {
   float: right;
-  height: 94px;
+  height: 24px;
 }
 
 .masthead-header .masthead-menu ul {
@@ -80,7 +87,7 @@ body {
 }
 
 .masthead-header .masthead-menu ul li a {
-  line-height: 94px;
+  line-height: 24px;
   color: inherit;
   padding: 0;
 }
@@ -91,7 +98,7 @@ body {
 }
 
 .masthead-header .masthead-menu ul li a span.fa {
-  line-height: 94px;
+  line-height: 24px;
   font-size: 24px;
   margin-right: 40px;
   padding: 0;
